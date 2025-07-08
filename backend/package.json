@@ -1,12 +1,11 @@
 {
   "name": "e-shop-tutorial",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "E-commerce backend with Express for Vercel",
+  "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
   },
   "author": "shahzad Ali",
   "license": "ISC",
@@ -24,8 +23,10 @@
     "mongoose": "^8.13.2",
     "multer": "^1.4.5-lts.2",
     "nodemailer": "^6.10.0",
-    "nodemon": "^3.1.10",
     "socket.io": "^4.8.1",
     "stripe": "^18.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
